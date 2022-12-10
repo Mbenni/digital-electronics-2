@@ -14,18 +14,18 @@ On the two diagrams above we can see the assembly that we have made for each dev
 For our project, we have used the following connections : 
 
 **Connections LCD to Arduino :**
-We use the down layer.
-	J11  ->  PWM4
-	J12  ->  PWM5
-	J13  ->  PWM6
-	J14  ->  PWM7
-	J15  ->  POWER GND
-	J16  ->  5V
-	J21  ->  PWM8
-	J22  ->  GND
-	J23  ->  PWM9
-	J25  ->  POWER GND
-	J26  ->  5V
+We use the down layer for J1 and J2:
+	J11  ->  PWM4  
+	J12  ->  PWM5  
+	J13  ->  PWM6  
+	J14  ->  PWM7  
+	J15  ->  POWER GND  
+	J16  ->  5V  
+	J21  ->  PWM8  
+	J22  ->  GND  
+	J23  ->  PWM9  
+	J25  ->  POWER GND  
+	J26  ->  5V  
 
 **Connections Joystick to Arduino :**
 	GND  ->  POWER GND
