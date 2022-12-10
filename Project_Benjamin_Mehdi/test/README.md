@@ -14,7 +14,7 @@ On the two diagrams above we can see the assembly that we have made for each dev
 For our project, we have used the following connections : 
 
 **Connections LCD to Arduino :**
-We use the down layer for J1 and J2:
+We use the down layer for J1 and J2:  
 	J11  ->  PWM4  
 	J12  ->  PWM5  
 	J13  ->  PWM6  
@@ -27,12 +27,12 @@ We use the down layer for J1 and J2:
 	J25  ->  POWER GND  
 	J26  ->  5V  
 
-**Connections Joystick to Arduino :**
-	GND  ->  POWER GND
-	5V     ->  5V
-	VRx  ->  A0
-	VRy  ->  A1
-	SW   ->  PWM9
+**Connections Joystick to Arduino :**  
+	GND  ->  POWER GND  
+	5V     ->  5V  
+	VRx  ->  A0  
+	VRy  ->  A1  
+	SW   ->  PWM9  
 
 Here is the list of components used:
 - Arduino Uno with AtmelMega328P MCU.
@@ -100,35 +100,35 @@ AVR MCU control registers are defined in the GPIO library. The library is divide
 The first file contains data type definitions, function prototypes, includes, definitions, and C preprocessor commands. As the name suggests, the header file extension is .h.
 The source .c file is used to implement the code.
 
-gpio.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/gpio/gpio.c
+gpio.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/gpio/gpio.c  
 gpio.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/gpio/gpio.h
 
 ### LCD
 
-lcd.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/lcd/lcd.c
-lcd.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/lcd/lcd.h
-lcd_definitions.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/lcd/lcd_definitions.h
+lcd.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/lcd/lcd.c  
+lcd.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/lcd/lcd.h  
+lcd_definitions.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/lib/lcd/lcd_definitions.h  
 
 ### INCLUDE
 
-timer.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/include/timer.h
+timer.h : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/include/timer.h  
 
 ### main
 
-main.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/src/main.c
+main.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benjamin_Mehdi/src/main.c  
 
 ## Flow chart
 
 
 ## Video
 
-You can fin a link for a the video of our project :
+You can fin a link for a the video of our project :  
 https://youtube.com/shorts/slyg9RKW3N8?feature=share
 
 ## References
 
-Joystick : https://navody.dratek.cz/navody-k-produktum/arduino-joystick-ps2.html
-	 : https://lastminuteengineers.com/joystick-interfacing-arduino-processing/
+Joystick : https://navody.dratek.cz/navody-k-produktum/arduino-joystick-ps2.html  
+	 	   https://lastminuteengineers.com/joystick-interfacing-arduino-processing/
 Pmod LCD : https://digilent.com/reference/pmod/pmodclp/start
 
 
