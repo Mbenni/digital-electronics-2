@@ -119,19 +119,19 @@ main.c : https://github.com/Mbenni/digital-electronics-2/blob/main/Project_Benja
 
 ## Flow chart
 
-#Interrupt service routine on Timer1  
+# Interrupt service routine on Timer1  
   
 Use single conversion mode and start ADC conversion every 33 ms.  
   
 ![image](./Flowchart_ISR_(TIM1).png)
 
-#Interrupt service routine on Timer2  
+# Interrupt service routine on Timer2  
   
 Read the push buttons' values every 16ms and display the happenening on the LCD screen .  
 
-![image](./Flowchart_ISR(TIM2).png.png)
+![image](./Flowchart_ISR(TIM2)png)
 
-#Interrupt service routine on ADC  
+# Interrupt service routine on ADC  
   
 Read ADC value and display the direction of the joystick depending on this value. Every time an ADC occurs the ADC channel is swapping between 1 and 0.  
 
