@@ -14,25 +14,25 @@ On the two diagrams above we can see the assembly that we have made for each dev
 For our project, we have used the following connections : 
 
 **Connections LCD to Arduino :**
-We use the down layer for J1 and J2:  
-	J11  ->  PWM4  
-	J12  ->  PWM5  
-	J13  ->  PWM6  
-	J14  ->  PWM7  
+We use the down layer for J1(1 to 6) and J2(1 to 6):  
+	J11  ->  PD4  
+	J12  ->  PD5  
+	J13  ->  PD6  
+	J14  ->  PD7  
 	J15  ->  POWER GND  
-	J16  ->  5V  
-	J21  ->  PWM8  
+	J16  ->  +5V  
+	J21  ->  PD8  
 	J22  ->  GND  
-	J23  ->  PWM9  
+	J23  ->  PD9  
 	J25  ->  POWER GND  
-	J26  ->  5V  
+	J26  ->  +5V  
 
 **Connections Joystick to Arduino :**  
 	GND  ->  POWER GND  
 	5V     ->  5V  
-	VRx  ->  A0  
-	VRy  ->  A1  
-	SW   ->  PWM9  
+	VRx  ->  PC0  (A0)
+	VRy  ->  PC1  (A1)
+	SW   ->  PD9  
 
 Here is the list of components used:
 - Arduino Uno with AtmelMega328P MCU.
@@ -70,7 +70,7 @@ A breadboard is a solderless construction base used for developing an electronic
 
 ## Description of the implementation
 
-We are connected a joystick, a screen aid to an Arduino. The joystick allows you to move. The voltage value is retrieved and converted into hexa to display it on the LCD screen. It also displays whether the joystick goes right, left, up, down, or center.
+We are connected a joystick, a screen aid to an Arduino. The joystick allows you to move. The voltage analog value is retrieved and converted into digital value from the ADC channel 0 or 1 to finally display it on the LCD screen. It also displays whether the joystick goes right, left, up, down, or center.
 
 ## Software description
 

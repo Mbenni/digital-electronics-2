@@ -1,32 +1,3 @@
-/***********************************************************************
- * 
- * Stopwatch by Timer/Counter2 on the Liquid Crystal Display (LCD)
- *
- * ATmega328P (Arduino Uno), 16 MHz, PlatformIO
- *
- * Copyright (c) 2017 Tomas Fryza
- * Dept. of Radio Electronics, Brno University of Technology, Czechia
- * This work is licensed under the terms of the MIT license.
- * 
- * Components:
- *   16x2 character LCD with parallel interface
- *     VSS  - GND (Power supply ground)
- *     VDD  - +5V (Positive power supply)
- *     Vo   - (Contrast)
- *     RS   - PB0 (Register Select: High for Data transfer, Low for Instruction transfer)
- *     RW   - GND (Read/Write signal: High for Read mode, Low for Write mode)
- *     E    - PB1 (Read/Write Enable: High for Read, falling edge writes data to LCD)
- *     D3:0 - NC (Data bits 3..0, Not Connected)
- *     D4   - PD4 (Data bit 4)
- *     D5   - PD5 (Data bit 5)
- *     D6   - PD6 (Data bit 3)
- *     D7   - PD7 (Data bit 2)
- *     A+K  - Back-light enabled/disabled by PB2
- * 
- **********************************************************************/
-
-
-
 /*****************************************************************************************
  * Teammates: 
  *    Benjamin Della Maggiore Mahiques
@@ -142,7 +113,7 @@ ISR(TIMER2_OVF_vect)
      if (Push_Joystick == 0){
       lcd_clrscr();
       lcd_gotoxy(1,6);
-      lcd_puts("BUZZER");
+      lcd_puts("!!!");
      }
 
 }
