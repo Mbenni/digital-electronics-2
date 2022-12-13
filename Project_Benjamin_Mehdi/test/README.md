@@ -145,8 +145,8 @@ https://youtube.com/shorts/slyg9RKW3N8?feature=share
 
 ## References
 
-Joystick : https://navody.dratek.cz/navody-k-produktum/arduino-joystick-ps2.html  
-	 	   https://lastminuteengineers.com/joystick-interfacing-arduino-processing/
+Joystick : https://navody.dratek.cz/navody-k-produktum/arduino-joystick-ps2.html   
+	 	   https://lastminuteengineers.com/joystick-interfacing-arduino-processing/  
 Pmod LCD : https://digilent.com/reference/pmod/pmodclp/start
 
 
