@@ -129,7 +129,7 @@ Use single conversion mode and start ADC conversion every 33 ms.
   
 Read the push buttons' values every 16ms and display the happenening on the LCD screen .  
 
-![image](./Flowchart_ISR(TIM2)png)
+![image](./Flowchart_ISR(TIM2).png)
 
 # Interrupt service routine on ADC  
   
