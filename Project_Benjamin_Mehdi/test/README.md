@@ -30,8 +30,8 @@ We use the down layer for J1(1 to 6) and J2(1 to 6):
 **Connections Joystick to Arduino :**  
 	GND  ->  POWER GND  
 	5V     ->  5V  
-	VRx  ->  PC0  (A0)
-	VRy  ->  PC1  (A1)
+	VRx  ->  PC0 (A0)  
+	VRy  ->  PC1 (A1)  
 	SW   ->  PD9  
 
 Here is the list of components used:
